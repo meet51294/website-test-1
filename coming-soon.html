@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title></title>
+
+        <style>
+            * {
+  font-family: "montserrat", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page {
+  background: #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  height: 100vh;
+  position: relative;
+}
+
+.countdown-col {
+  background: url(https://images.pexels.com/photos/911758/pexels-photo-911758.jpeg) no-repeat center;
+  background-size: cover;
+  
+}
+
+.time { 
+  color: white;
+  text-transform: uppercase;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.time span{
+  padding: 0px 14px;
+  font-size: 10px;
+  color: black;
+}
+
+.time span div {
+  font-size: 40px;
+}
+
+.newsletter {
+  width: 90%;
+}
+
+.newsletter h4 {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.newsletter input {
+  display: block;
+  margin: 12px auto;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 14px 20px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.newsletter-btn {
+  background: linear-gradient(125deg,#3498db,#34495e);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.newsletter-btn:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 900px) {
+  .col {
+    flex: 100%;
+  }
+}
+
+        </style>
+    </head>
+
+    <body>
+        
+            <div class="page">
+              <div class="countdown-col col">
+            
+              <div class="newsletter-col col">
+                <div class="newsletter middle">
+                  <h2>Coming Soon...</h2>
+                  <h4>Be ready, we are launching soon.</h4>
+                 
+                  <form action="index.html">
+                    
+                    <a href="index.html"> <input type="button"  class="newsletter-btn" value="home"></a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          
+    
+          
+    </body>
+</html>
